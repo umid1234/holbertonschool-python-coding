@@ -3,18 +3,23 @@
 Module 3-square
 Defines a class Square with getter and setter for size.
 """
+
+
 class Square:
     """
     Class Square that defines a square with controlled size attribute.
     """
+
     def __init__(self, size=0):
         self.size = size
+
     @property
     def size(self):
         """
         Getter for size.
         """
         return self.__size
+
     @size.setter
     def size(self, value):
         """
