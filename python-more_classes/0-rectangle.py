@@ -4,4 +4,5 @@ class Rectangle:
     """
     Docstring for Rectangle
     """
-    pass
+    def __init__(self, size=0):
+        self.size = size
